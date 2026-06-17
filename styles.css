@@ -1,14 +1,26 @@
-/*  your css code here. If applicable */
-.my-box{
-	width:200px;
-	height:200px;
-	border:2px;
-	align-content:center; 
-	background-color:aqua;
-	text-align:center;
-	border:solid black;
+body {
+    margin: 0;
+    height: 100vh;
 }
 
-p{
-	color:purple
+.my-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my-box p {
+    margin: 0;
+    color: purple;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
