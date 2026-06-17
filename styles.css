@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.my-box{
+	width:200px;
+	height:200px;
+	border:2px;
+	align-content:center; 
+	background-color:aqua;
+	text-align:center;
+	border:solid black;
+}
+
+p{
+	color:purple
+}
